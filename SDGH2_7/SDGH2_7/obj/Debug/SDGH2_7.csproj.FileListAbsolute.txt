@@ -5,3 +5,11 @@ C:\Users\CC2_PC16\Documents\Tarea2_5\SD-GH\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.Mai
 C:\Users\CC2_PC16\Documents\Tarea2_5\SD-GH\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.csproj.GenerateResource.Cache
 C:\Users\CC2_PC16\Documents\Tarea2_5\SD-GH\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.exe
 C:\Users\CC2_PC16\Documents\Tarea2_5\SD-GH\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.pdb
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\bin\Debug\SDGH2_7.exe
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\bin\Debug\SDGH2_7.pdb
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.csprojResolveAssemblyReference.cache
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.MainForm.resources
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.Trabajo.resources
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.csproj.GenerateResource.Cache
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.exe
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.pdb

@@ -45,18 +45,20 @@ namespace SDGH2_7
 			// lblTITULO
 			// 
 			this.lblTITULO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblTITULO.Location = new System.Drawing.Point(69, 26);
+			this.lblTITULO.Location = new System.Drawing.Point(92, 32);
+			this.lblTITULO.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblTITULO.Name = "lblTITULO";
-			this.lblTITULO.Size = new System.Drawing.Size(445, 36);
+			this.lblTITULO.Size = new System.Drawing.Size(593, 44);
 			this.lblTITULO.TabIndex = 0;
 			this.lblTITULO.Text = "Tarea 2.7: Proyecto de csharp en git";
 			// 
 			// btnINICIAR
 			// 
 			this.btnINICIAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnINICIAR.Location = new System.Drawing.Point(218, 213);
+			this.btnINICIAR.Location = new System.Drawing.Point(291, 262);
+			this.btnINICIAR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnINICIAR.Name = "btnINICIAR";
-			this.btnINICIAR.Size = new System.Drawing.Size(103, 32);
+			this.btnINICIAR.Size = new System.Drawing.Size(137, 39);
 			this.btnINICIAR.TabIndex = 1;
 			this.btnINICIAR.Text = "INICIAR";
 			this.btnINICIAR.UseVisualStyleBackColor = true;
@@ -65,39 +67,44 @@ namespace SDGH2_7
 			// lsbDATOS
 			// 
 			this.lsbDATOS.FormattingEnabled = true;
+			this.lsbDATOS.ItemHeight = 16;
 			this.lsbDATOS.Items.AddRange(new object[] {
-									"Nombre",
-									"No. Lista",
-									"Materia",
-									"Maestro",
-									"Fecha",
-									"Semestre y Especialidad"});
-			this.lsbDATOS.Location = new System.Drawing.Point(12, 110);
+			"Nombre",
+			"No. Lista",
+			"Materia",
+			"Maestro",
+			"Fecha",
+			"Semestre y Especialidad"});
+			this.lsbDATOS.Location = new System.Drawing.Point(16, 135);
+			this.lsbDATOS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.lsbDATOS.Name = "lsbDATOS";
-			this.lsbDATOS.Size = new System.Drawing.Size(143, 82);
+			this.lsbDATOS.Size = new System.Drawing.Size(189, 100);
 			this.lsbDATOS.TabIndex = 2;
 			this.lsbDATOS.SelectedIndexChanged += new System.EventHandler(this.LsbDATOSSelectedIndexChanged);
 			// 
 			// lblDATOS
 			// 
-			this.lblDATOS.Location = new System.Drawing.Point(175, 127);
+			this.lblDATOS.Location = new System.Drawing.Point(233, 156);
+			this.lblDATOS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblDATOS.Name = "lblDATOS";
-			this.lblDATOS.Size = new System.Drawing.Size(221, 66);
+			this.lblDATOS.Size = new System.Drawing.Size(295, 81);
 			this.lblDATOS.TabIndex = 3;
 			this.lblDATOS.Text = "Selecciona un dato de la lista a la izquierda";
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(553, 306);
+			this.ClientSize = new System.Drawing.Size(737, 377);
 			this.Controls.Add(this.lblDATOS);
 			this.Controls.Add(this.lsbDATOS);
 			this.Controls.Add(this.btnINICIAR);
 			this.Controls.Add(this.lblTITULO);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "MainForm";
 			this.Text = "SDGH2_7";
 			this.ResumeLayout(false);
+
 		}
 		private System.Windows.Forms.Label lblDATOS;
 		private System.Windows.Forms.ListBox lsbDATOS;
