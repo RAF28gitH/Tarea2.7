@@ -36,7 +36,9 @@ namespace SDGH2_7
 			string cad3=((txtNOMBRE.Text.Length)>=2? txtNOMBRE.Text.Substring(0,1).ToUpper():aggX(1,txtNOMBRE.Text).ToUpper());
 			DateTime fec=dateNAC.Value;
 			string cad4=fec.Year.ToString().Substring(2,2)+compFec(fec.Month.ToString())+compFec(fec.Day.ToString());
-			lblRFC.Text=cad1+cad2+cad3+cad4;
+			string ryt=cad1+cad2+cad3+cad4;
+			resu form2 = new resu((txtNOMBRE.Text.ToUpper()+" "+txtAP1.Text.ToUpper()+" "+txtAP2.Text.ToUpper()),ryt);
+			form2.Show();
 		}
 		
 		string aggX(int ter, string s)
