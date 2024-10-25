@@ -31,6 +31,7 @@ namespace SDGH2_7
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Label lblRFC;
 		private System.Windows.Forms.DateTimePicker dateNAC;
+		private System.Windows.Forms.Button button2;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -70,6 +71,7 @@ namespace SDGH2_7
 			this.dateNAC = new System.Windows.Forms.DateTimePicker();
 			this.button1 = new System.Windows.Forms.Button();
 			this.lblRFC = new System.Windows.Forms.Label();
+			this.button2 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lblTITULO
@@ -212,11 +214,23 @@ namespace SDGH2_7
 			this.lblRFC.Size = new System.Drawing.Size(273, 40);
 			this.lblRFC.TabIndex = 16;
 			// 
+			// button2
+			// 
+			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.Location = new System.Drawing.Point(706, 382);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(159, 82);
+			this.button2.TabIndex = 17;
+			this.button2.Text = "Acerca de";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.Button2Click);
+			// 
 			// Trabajo
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(921, 530);
+			this.Controls.Add(this.button2);
 			this.Controls.Add(this.lblRFC);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.dateNAC);

@@ -14,3 +14,4 @@ C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.csproj.GenerateResourc
 C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.exe
 C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.pdb
 C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.resu.resources
+C:\Users\52445\Tarea2.7\SDGH2_7\SDGH2_7\obj\Debug\SDGH2_7.Acerca_de.resources

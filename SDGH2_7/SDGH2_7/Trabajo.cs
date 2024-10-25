@@ -56,5 +56,10 @@ namespace SDGH2_7
 			}
 			return y;
 		}
+		void Button2Click(object sender, EventArgs e)
+		{
+			Acerca_de form3 = new Acerca_de();
+			form3.Show();
+		}
 	}
 }
