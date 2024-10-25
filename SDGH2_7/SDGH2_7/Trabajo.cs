@@ -28,6 +28,7 @@ namespace SDGH2_7
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
 		void Button1Click(object sender, EventArgs e)
 		{
 			string cad1=((txtAP1.Text.Length)>=2? txtAP1.Text.Substring(0,2).ToUpper():aggX(2,txtAP1.Text).ToUpper());
@@ -37,6 +38,7 @@ namespace SDGH2_7
 			string cad4=fec.Year.ToString().Substring(2,2)+compFec(fec.Month.ToString())+compFec(fec.Day.ToString());
 			lblRFC.Text=cad1+cad2+cad3+cad4;
 		}
+		
 		string aggX(int ter, string s)
 		{
 			for(int i=0; i<=ter-s.Length; i++){
@@ -44,6 +46,7 @@ namespace SDGH2_7
 			}
 			return s;
 		}
+		
 		string compFec(string y)
 		{
 			if(y.Length==1){

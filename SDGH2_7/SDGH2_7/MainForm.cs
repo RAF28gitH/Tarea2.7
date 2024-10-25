@@ -66,6 +66,7 @@ namespace SDGH2_7
 		{
     		Form mf = Application.OpenForms["MainForm"];
     		List<Form> lfc = new List<Form>();
+    		
     		foreach (Form f in Application.OpenForms)
     		{
         		if (f == mf)
@@ -75,10 +76,12 @@ namespace SDGH2_7
 
         		lfc.Add(f);
     		}
+    		
     		foreach (Form f in lfc)
     		{
         		f.Close();
     		}
 		}
+		
 	}
 }
