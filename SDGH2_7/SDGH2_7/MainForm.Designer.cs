@@ -55,8 +55,8 @@ namespace SDGH2_7
 			// btnINICIAR
 			// 
 			this.btnINICIAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnINICIAR.Location = new System.Drawing.Point(291, 262);
-			this.btnINICIAR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.btnINICIAR.Location = new System.Drawing.Point(293, 270);
+			this.btnINICIAR.Margin = new System.Windows.Forms.Padding(4);
 			this.btnINICIAR.Name = "btnINICIAR";
 			this.btnINICIAR.Size = new System.Drawing.Size(137, 39);
 			this.btnINICIAR.TabIndex = 1;
@@ -76,7 +76,7 @@ namespace SDGH2_7
 			"Fecha",
 			"Semestre y Especialidad"});
 			this.lsbDATOS.Location = new System.Drawing.Point(16, 135);
-			this.lsbDATOS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.lsbDATOS.Margin = new System.Windows.Forms.Padding(4);
 			this.lsbDATOS.Name = "lsbDATOS";
 			this.lsbDATOS.Size = new System.Drawing.Size(189, 100);
 			this.lsbDATOS.TabIndex = 2;
@@ -84,7 +84,7 @@ namespace SDGH2_7
 			// 
 			// lblDATOS
 			// 
-			this.lblDATOS.Location = new System.Drawing.Point(233, 156);
+			this.lblDATOS.Location = new System.Drawing.Point(232, 154);
 			this.lblDATOS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblDATOS.Name = "lblDATOS";
 			this.lblDATOS.Size = new System.Drawing.Size(295, 81);
@@ -100,7 +100,7 @@ namespace SDGH2_7
 			this.Controls.Add(this.lsbDATOS);
 			this.Controls.Add(this.btnINICIAR);
 			this.Controls.Add(this.lblTITULO);
-			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Margin = new System.Windows.Forms.Padding(4);
 			this.Name = "MainForm";
 			this.Text = "SDGH2_7";
 			this.ResumeLayout(false);
