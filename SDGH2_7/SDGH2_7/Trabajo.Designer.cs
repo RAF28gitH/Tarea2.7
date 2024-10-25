@@ -28,8 +28,9 @@ namespace SDGH2_7
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.DateTimePicker dateTimePicker1;
 		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Label lblRFC;
+		private System.Windows.Forms.DateTimePicker dateNAC;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -66,8 +67,9 @@ namespace SDGH2_7
 			this.label6 = new System.Windows.Forms.Label();
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.label7 = new System.Windows.Forms.Label();
-			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+			this.dateNAC = new System.Windows.Forms.DateTimePicker();
 			this.button1 = new System.Windows.Forms.Button();
+			this.lblRFC = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// lblTITULO
@@ -185,12 +187,12 @@ namespace SDGH2_7
 			this.label7.TabIndex = 13;
 			this.label7.Text = "Fecha de nacimiento";
 			// 
-			// dateTimePicker1
+			// dateNAC
 			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(140, 275);
-			this.dateTimePicker1.Name = "dateTimePicker1";
-			this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-			this.dateTimePicker1.TabIndex = 14;
+			this.dateNAC.Location = new System.Drawing.Point(140, 275);
+			this.dateNAC.Name = "dateNAC";
+			this.dateNAC.Size = new System.Drawing.Size(200, 22);
+			this.dateNAC.TabIndex = 14;
 			// 
 			// button1
 			// 
@@ -200,14 +202,24 @@ namespace SDGH2_7
 			this.button1.TabIndex = 15;
 			this.button1.Text = "Calcular RFC";
 			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
+			// lblRFC
+			// 
+			this.lblRFC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblRFC.Location = new System.Drawing.Point(627, 158);
+			this.lblRFC.Name = "lblRFC";
+			this.lblRFC.Size = new System.Drawing.Size(273, 40);
+			this.lblRFC.TabIndex = 16;
 			// 
 			// Trabajo
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(896, 530);
+			this.ClientSize = new System.Drawing.Size(921, 530);
+			this.Controls.Add(this.lblRFC);
 			this.Controls.Add(this.button1);
-			this.Controls.Add(this.dateTimePicker1);
+			this.Controls.Add(this.dateNAC);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.comboBox1);
 			this.Controls.Add(this.label6);
